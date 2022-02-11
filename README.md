@@ -39,20 +39,15 @@ Then create a environment file using this command:
 cp .env.example .env
 ```
 
-Then edit .env file with correct credential for your database server. Just edit these two parameter(DB_USERNAME, DB_PASSWORD).
-Then create a database named todos and then do a database migration using this command-
-```
-php artisan migrate
-```
-
-Then, seed the given database with this command
-```
-php artisan db:seed
-```
-
 At last generate application key, which will be used for password hashing, session and cookie encryption etc.
 ```
 php artisan key:generate
+```
+
+Then edit .env file with correct credential for your database server. Just edit these two line (DB_USERNAME, DB_PASSWORD).
+Then create a database named todos and then do a database migration using this command-
+```
+php artisan migrate:fresh --seed
 ```
 
 Run server using this command:
