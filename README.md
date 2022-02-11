@@ -1,7 +1,7 @@
 Simple Laravel TODO App with Vue
 This is built on Laravel Framework 8.75
 
-## Installation
+# Installation
 This is built on Laravel Framework 8.75
 
 Clone the given repository:
