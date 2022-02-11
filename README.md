@@ -6,7 +6,7 @@ This is built on Laravel Framework 8.75
 
 Clone the given repository:
 ```
-https://github.com/sagarraic/todos.git`
+https://github.com/sagarraic/todos.git
 ```
 
 Then go to folder redirectory by this command:
